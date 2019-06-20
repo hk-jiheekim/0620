@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>check!</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+	<meta property="og:image" content="thumbnail.jpg">
+	<style>
+
+		@font-face { font-family: 'Arita-dotum-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+		.wrap{margin: auto; width: 1200px; }
+		h1{font-size: 115px; padding-bottom: 150px; text-align: center;}
+		h2{font-size: 60px; padding-bottom: 100px;}
+		p{font-family: 'Arita-dotum-Medium'; line-height: 35px; font-size: 18px;}
+		.start_p{text-align: center; width: 720px; margin: auto; 
+			padding-bottom: 150px;}
+		section{position: relative; }
+		li{list-style-type: none; width: 100px; height: 44px; display: inline-block; text-align: center; font-family: 'Arita-dotum-Medium';}
+		ul{text-align: center; padding-bottom: 100px;}
+		li a{text-decoration: none; color: black; font-weight: bold;}
+		li a:link, li a:hover, li a:active, li a:visited{display: block; text-decoration: none; color: black; font-weight: bold;}
+		li a:hover{background: black; color: white; }
+		footer{font-family: 'Arita-dotum-Medium';}
+
+
+		.tr{z-index: 997; position: absolute; animation: tr 10s infinite alternate ease; }
+		@keyframes tr{
+			from{left:10px;}
+			to{left:1200px; }}
+		.ho{z-index: 998; position: absolute; animation: hr 8s infinite alternate ease; }
+		@keyframes hr{
+			from{left:10px;}
+			to{left:1150px; }}
+		.glr{z-index: 998; position: absolute; animation: glr 8s infinite alternate ease; }
+		@keyframes glr{
+			from{left:10px;}
+			to{left:1200px; }}
+		.terr{z-index: 998; position: absolute; animation: terr 18s infinite alternate ease; }
+		@keyframes terr{
+			from{left:10px;}
+			to{left:1200px; }}
+		.arr{z-index: 990; position: absolute; animation: arr 10s infinite alternate ease; }
+		@keyframes arr{
+			from{left:1100px;}
+			to{left:-500px; }}
+		.wr{z-index: 990; position: absolute; animation: wr 8s infinite alternate ease; }
+		@keyframes wr{
+			from{left:10px;}
+			to{left:1100px; }}
+		.wrr{z-index: 990; position: absolute; animation: wrr 8s infinite alternate ease; }
+		@keyframes wrr{
+			from{left:1100px;}
+			to{left:-500px; }}
+		.wrrr{z-index: 990; position: absolute; animation: wrrr 8s infinite alternate ease; }
+		@keyframes wrrr{
+			from{top:10px;}
+			to{top:1500px; }}
+		.wwrrr{z-index: 990; position: absolute; animation: wwrrr 8s infinite alternate ease; right: 50px;}
+		@keyframes wwrrr{
+			from{top:1600px;}
+			to{top:10px; }}
+		.ging{z-index: 990; position: absolute; animation: gr 15s infinite alternate ease; }
+		@keyframes gr{
+			from{left:1000px;}
+			to{left:-400px; }}
+
+		.her{z-index: 990; position: absolute; animation: her 8s infinite alternate ease; }
+		@keyframes her{
+			from{top:10px;}
+			to{top:2300px; }}
+		.herr{z-index: 990; position: absolute; animation: herr 10s infinite alternate ease; }
+		@keyframes herr{
+			from{top:2300px;}
+			to{top:10px; }}
+
+		.onr{z-index: 990; position: absolute; animation: onr 20s infinite alternate ease; }
+		@keyframes onr{
+			from{left:1200px;}
+			to{left:10px; }}
+		.gur{z-index: 990; position: absolute; animation: gur 10s infinite alternate ease; top: 800px;}
+		@keyframes gur{
+			from{left:10px;}
+			to{left:1100px; }}
+		.guur{z-index: 990; position: absolute; animation: guur 10s infinite alternate ease; top: 800px;}
+		@keyframes guur{
+			from{left:1100px;}
+			to{left:-200px; }}
+		.tartanr{z-index: 990; position: absolute; animation: tttr 10s infinite alternate ease; top: 2000px; width: 300px; left: 100px; }
+		@keyframes tttr{
+			from{}
+			to{ transform: rotate(180deg);}}
+		.houndr{z-index: 990; position: absolute; animation: hour 7s infinite alternate ease; top: 1150px; width: 250px; right:-100px; }
+		@keyframes hour{
+			from{}
+			to{ transform: rotate(30deg);}}
+		.houndrr{z-index: 990; position: absolute; animation: hourr 7s infinite alternate ease; top:1500px; left: -200px; }
+		@keyframes hourr{
+			from{width: 200px;transform: rotate(250deg);}
+			to{ width: 500px; transform: rotate(-60deg);}}
+
+		.second {opacity: 0.3; filter: alpha(opacity=30);  width: 1000px; height: 50px; background-color: red;}
+		.trs{opacity: 0.3; filter: alpha(opacity=30);  width: 1200px; height: 50px; background-color: red; position: absolute; top: 2700px; }
+		.hos{opacity: 0.3; filter: alpha(opacity=30);  width: 1200px; height: 50px; background-color: black; position: absolute; top: 350px; }
+		.hoss{opacity: 0.3; filter: alpha(opacity=30);  width: 1200px; height: 50px; background-color: black; position: absolute; top: 1800px; }
+		.glss{opacity: 0.3; filter: alpha(opacity=30);  width:1200px; height: 50px; background-color: #5b4206; position: absolute; top: 1500px; right: 0px; }
+		.ters{opacity: 0.3; filter: alpha(opacity=30);  width: 700px; height: 50px; background-color: #116ea4; position: absolute; top: 500px; right: 0px; }
+		.terss{opacity: 0.3; filter: alpha(opacity=30);  width: 1200px; height: 50px; background-color: #116ea4; position: absolute; top: 1800px;  }
+		.ars{opacity: 0.3; filter: alpha(opacity=30);  width: 1200px; height: 50px; background-color: #d0913f; position: absolute; top: 1500px;  }
+		.gins{opacity: 0.3; filter: alpha(opacity=30);  width: 1200px; height: 50px; background-color: #111199; position: absolute; top: 800px;  }
+		.ons{opacity: 0.3; filter: alpha(opacity=30);  width: 1200px; height: 50px; background-color: #410909; position: absolute; top: 500px;  }
+		.hes{opacity: 0.3; filter: alpha(opacity=30);  width: 1000px; height: 50px; background-color: gray; position: absolute; top: 500px;  right: 0px; }
+		.gus{opacity: 0.3; filter: alpha(opacity=30);  width: 1000px; height: 50px; background-color: #590B0B; position: absolute; top: 500px;  right: 0px; }
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</style>
+</head>
+<body>
+	<div class="wrap">
+	<audio src="./mo.mp3" audioplay controls=""></audio>
+		<h1>CHECK? CHECK!</h1>
+		<p class="start_p">옷, 모자, 신발, 스카프, 등 많은 곳에 활용되고 많은 사람들이 찾는 체크.
+		이런 체크에도 종류가 굉장히 많다고 합니다. 어떤 종류의 체크들이 있는지 간단하게 살펴봅시다. </p>
+		&nbsp;
+		<nav>
+			<ul>
+				<li><a href="#ta">타탄</a></li>
+				<li><a href="#ha">하운즈투스</a></li>
+				<li><a href="#gl">글렌</a></li>
+				<li><a href="#te">테터솔</a></li>
+				<li><a href="#ar">아가일</a></li>
+				<li><a href="#wid">윈도우페인</a></li>
+				<li><a href="#gi">깅엄</a></li>
+				<li><a href="#he">헤링본</a></li>
+				<li><a href="#ong">옹브레</a></li>
+				<li><a href="#gun">건클럽</a></li>
+
+			</ul>
+		</nav>
+		<section id="ta" style="height: 2100px;" >
+			<h2 style="width: 450px; text-shadow: 2px 2px red;">Tartan Check? 타탄체크!</h2>
+			<p style="width: 450px; top: 600px; position: absolute;">스코틀랜드의 씨족에 전해지는 전통적인 격자 무늬이다. 체크가 2중, 3중으로 겹쳐져 복잡한 무늬를 형성하고 있다. 씨족의 문장 대용으로도 사용되었던 것인데, 그 무늬와 색채의 변화는 많다. 현재는 영국 민족 무늬의 테두리를 넘어서 여러 가지 분야에 사용되고 있다. 검정과 녹색을 중심인 블랙워치 타탄과 갈색을 중심으로 한 브라운워치 타탄무늬는 특히 남성복의 무늬에 적당하다.</p>
+			<div class="second"></div>
+
+			<div>
+				<img class="tr" src="./tatan01.jpg" style=" border-radius: 50%; width: 300px;">
+			</div>
+			</section>
+			<div>
+			<img src="./tatan1.png" style=" position: absolute; top: 1000px; left: 800px;"  >
+			<div class="trs" ></div>
+			<img src="./tatan2.png" style="width: 1450px; position: absolute; top: 1900px; left: 300px;" >
+			<img class="tartanr" src="tatan8.png">
+			</div>
+			&nbsp;
+		
+		<section id="ha" style="height: 2200px;">
+			<h2 style="text-shadow: 2px 2px gray;">Houndstooth Check? 하운즈투스 체크!</h2>
+			<div class="hos"></div>
+			<div class="hoss"></div>
+			<img class="ho" src="./hound1.jpg" style="border-radius: 50%;width: 250px;" >
+			<p style="width: 450px; position: absolute; display:block; left: 800px; top: 800px;">
+			검정이나 흰색 혹은 진하고 엷은 줄무늬. 폭을 똑같이 한 것인데, 셰퍼드 체크 보다는 무늬가 거칠고 큰 것이 특징이다. 특히 흰바탕에 검정, 감색, 적색, 갈색의 갈지자 무늬 배색이 많다. 체크의 형태가 사냥개의 이빨처럼 보이는 데에서 유래된 명칭이다.  흰색 바탕에 검정 무늬가 대부분이며, 빨간색·갈색·청색도 배색으로 쓰인다. 무늬의 크기는 대체로 4∼5cm이다. 이 무늬를 사용하면 중후하고 전통적인 느낌을 준다. 그러나 무늬의 크기와 형태를 변형하면 캐주얼한 분위기도 연출할 수 있다. 코트·원피스·스웨터 등에 자주 이용한다.</p>
+			<div>
+			<img src="./hound.png" style="top: 100px;  left: -200px; position: absolute;">
+			<img src="hound1.png" style="width: 1400px; top: 1300px; position: absolute; left: -100px;">
+			<img class="houndr" src="hound2.png" >
+			<img class="houndrr" src="hound3.png" >
+			</div>
+		</section>
+	
+		&nbsp;
+		<section id="gl" style="height: 1800px;">
+			<h2 style="text-shadow: 2px 2px gold;">Glen Check? 글렌체크!</h2>
+			<div class="glss" ></div>
+			<p style="width: 450px; top: 500px; position: absolute;">작은 격자로 구성된 큰 격자 무늬의 일종으로서 스코틀랜드의 글레너카트 체크의 약칭이다. 기본 패턴은 파란색과 흰색의 두 가지 색이다. 단순한 큰 격자가 겹쳐지며 여러 색으로 구성되는 것도 포함해서 부르는 직물 무늬로 
+			두 종류의 격자 무늬를 하나로 통합하려고 생각한 어느 부인이 짠 것이 최초라고 일컬어진다. 소모 또는 방모직물로 남녀의 슈트감, 코트감으로 널리 이용되는 전통적인 무늬의 하나이다</p>
+			<div>
+			<img src="./glan.png" style="position: absolute; top: 100px; left: 300px;">
+			<img class="glr" src="./glan.jpg" style="border-radius:50%; width: 200px; top: 1000px;">
+			<img src="./glan1.png" style="width: 14s00px; position: absolute; top: 1200px; left: -100px;">
+			</div>
+		</section>
+
+		&nbsp;
+		<section id="te" style="height: 2300px;">
+		<h2 style="position: absolute; left: 750px; top: 200px; width: 500px; text-shadow: 2px 2px blue;">Tattersall Check? 테터솔 체크!</h2>
+		<div class="ters" ></div>
+		<div class="terss" ></div>
+		<p style="width: 450px; position: absolute;  top: 500px; left: 750px;">두 가지 색으로 만들어져 번갈아 변하는 격자무늬. 또는 두 가지 색이 번갈아가며 나오는 줄무늬를 “태터솔 스트라이프”라고 부른다. 런던 마시장 태터솔에서 말을 위한 모포에서 연유된 명칭. 현재는 캐주얼한 재킷, 슈트, 코트, 스포츠 셔츠 등에 쓰인다. 일반적으로 밝은 톤의 바닥에 패턴 사이즈가 작은 편이며, 가로, 세로 비율이 정사각에 가까운 것이 특이다.</p>
+		<div>
+		<img src="./tetter.png" style="position: absolute; left: -150px; top: 100px;">
+		<img class="terr" src="./tetter.jpeg" style="border-radius: 50%; width: 300px; top:900px; ">
+		<img src="./tetter1.png" style="width: 1400px; position: absolute; top: 1350px;">
+		</div>
+	</section>
+		&nbsp;
+		<section id="ar" style="height: 2000px;">
+		<h2 style="text-shadow: 2px 2px gray;">Argyle Check? 아가일 체크!</h2>
+		<div class="ars" ></div>
+		<p style="width: 400px;">스코틀랜드 서부 연안 아가일 주의 이름을 
+		딴 스웨터를 말한다.  정식으로는 아가일 플래드라고 한다. 어떤 색의 다이아몬드 
+		체크 위에 가늘고 경사진 격자 무늬가 겹쳐지고 있다. 원래는 3색 배색이었다.  격자 무늬의 일종이다. 대개 화려한 색채 배합에 따른 마름모색무늬. 아이비나 영국풍 스웨터, 속스에 많이 쓰이는 전통적인 무늬이다.</p>
+		<div>
+			<img class="arr" src="./arg.jpg" style="border-radius: 50%; width: 350px; top: 600px; ">
+		<img src="./arg.png" style="position: absolute; top: 200px; left: 450px;"> 
+
+		<img src="./arg2.png" style="width: 1500px; position: absolute; top: 1000px; left: -100px;">
+
+		</div>
+		</section>
+
+		&nbsp;
+		<section id="wid" style="height: 1700px;">
+		<h2 style="text-shadow: 2px 2px navy;">Windowpane Check? 윈도우페인 체크!</h2>
+		<p style="width: 430px; position: absolute; left: 800px; top: 600px;">창유리 모양의 격자 무늬라는 의미의 윈도페인 
+		체크, 또는 윈도페인 플래드의 줄임말이다. 가느다란 한 줄의 세로줄 무늬와 가로줄 무늬가 교차해서 생긴 심플하고 매력적인 격자 무늬이다.</p>
+		<div>
+		<img src="./window.png" style="position: absolute; left: -200px; 
+		top: 200px;">
+		<img class="wr" src="./windowp.png" style="border-radius: 50%; width: 100px;">
+		<img class="wrr" src="./windowp.png" style="border-radius: 50%; width: 100px; top: 800px;">
+		<img class="wrrr" src="./windowp.png" style="border-radius: 50%; width: 100px; top: 800px;">
+		<img class="wwrrr" src="./windowp.png" style="border-radius: 50%; width: 100px; top: 1600px;">
+		<img src="./window2.png" style="width: 1300px; position: absolute; top: 950px;">
+		</div>
+		</section>
+
+		&nbsp;
+		<section id="gi" style="height: 2000px;">
+		<h2 style=" text-shadow: 2px 2px skyblue; width: 500px;">Gingham Check? 깅엄체크!</h2>
+		<div class="gins" ></div>
+		<p style="width: 440px;">흰색과 다른 색 하나 또는 여러 색의 경사와 위사로 구성되는 면 등의 평직으로서 다용도의 일반적인 직물에 사용되는 체크 무늬의 총칭이다. 크기가 같은 격자무늬로 이루어져 있다.화이트 컬러를 베이스로 
+		또 다른 하나의 색을 섞는 것이 원칙처럼 여겨지지만, 요즘은 두세가지 색을 섞어도 무방하다. 격자무늬의 크기가 클수록 화사하고 에너제틱하다.</p>
+			<div>
+			<img src="./ging.png" style="position: absolute; left: 500px; top: 150px;">
+			<img class="ging" src="./gingh.jpg" style="border-radius: 50%; width: 800px; top: 700px;">
+			<img src="ging1.png" style="width: 1500px; position: absolute; top: 1000px; left: -95px;">
+			</div>
+		</section>
+
+	
+		&nbsp;
+		<section id="he" style="height: 2500px;">
+		<h2 style="text-shadow: 2px 2px gray;">Herring Bone Check? 헤링본 체크!</h2>	
+		<div class="hes"></div>
+		<p style="width: 470px; position: absolute;left: 800px;">팔자능이라고도 하며 안정하게 균형이 잡힌 무늬를 헤링본 능직(HBT)이라고 한다. 정식으로는 헤링본 트윌, 즉 청어의 등뼈라는 의미로 사선무늬 직물의 일종이다. 미니 헤링본은 언뜻 보면 무늬가 아니라 골과 같이 보이며 검은색이 기조인 것은 무늬가 없는 것처럼 보이기도 한다. 헤링본은 홈스펀, 도니골 등과 함께 트위드에 속한다. 트위드는 클래식하고 미니멀한 여유로움을 느끼게 하여 슈트, 재킷, 오버 코트 등에 주로 쓰인다.원래는 전통적인 신사복 소재로 사용되었으나 지금은 여성복에도 사용하여 보수성이 강한 캐주얼 타입으로 지성미를 나타내는 데 효과가 있다.</p>
+		<div>
+			<img src="herr.png" style="position: absolute; left: -100px;">
+
+			<img src="herr2.png" style="width: 1500px; position: absolute; top: 1200px; left: -200px;">
+			<img class="her" src="./herr.jfif" style="border-radius: 50%; width: 150px;" > 
+			<img class="herr" src="./herr.jfif" style="border-radius: 50%; width: 150px; top: 500px; left: 800px;"> 
+		</div>
+		</section>
+	
+</section>
+		&nbsp;
+		<section id="ong" style="height: 2000px;">
+		<h2 style="width: 450px; position: absolute; top: 200px; text-shadow: 2px 2px brown;">Ongbé Check? 옹브레 체크!</h2>
+		<div class="ons"></div>
+		<p style="width: 450px;  position: absolute; top: 500px;">한 가지 색의 농담으로 된 격자 무늬인데, 기본이 되는 선의 한쪽이나.또는 양쪽이 점차 바탕색에 녹아들어가는 것 같은 잘 조화된 것을 말한다. 큰 무늬로 여성용의 모직물, 또는 엷은 실키한 천에 사용된다.</p>
+		<div>
+			<img src="o.png" style="position: absolute; top: 200px; left: 600px;">
+			<img src="o2.png" style="width: 1400px; position: absolute; top: 950px;">
+			<img class="onr" src="./on.jfif" style="width: 200px; border-radius: 50%; top: 700px;">
+		</div>
+		</section>
+		
+		&nbsp;
+		<section>
+		<h2 id="gun" style="padding-bottom: 00px; text-shadow: 2px 2px orange;">Gun Club Check? 건클럽 체크!</h2>
+		<div class="gus"></div>
+		<P style="width: 400px; left: 900px; position: absolute; top: 600px;">같은 색의 농담, 또는 다른 색 두 종류의 셰퍼드 체크를 조합하여 만든 작은 격자 무늬이다. 1874년 미국 수렵클럽이 회원의 유니폼으로 이 무늬를 지정한 데에서 유래된 명칭이다. 작고 짙은 체크 위에 엷은 색의 체크를 ＋자로 겹치게 한 것으로, 갈색의 농담에 의한 것과 흰 바탕에 검은 실과 붉은 실을 사용한 것이 인기가 있다. 원래 스포츠웨어에 쓰이는 무늬이다.</P>
+		<div>
+			<img src="g.png" style="position: absolute;">
+			<img src="g2.png" style="width: 1300px; position: absolute; top: 1000px;">
+			<img class="gur" src="./gun.jfif" style="border-radius: 50%; width: 300px;">
+			<img class="guur" src="./gun.jfif" style="border-radius: 50%; width: 300px;">
+		</div>
+		</section>
+
+		<section style=" top: 1800px; ">
+		<footer style="margin: auto; text-align: center; padding-bottom: 50px;">2019.06.20.copyright 김지희 디지털퍼블리싱</footer>
+		</section>
+	</div>
+
+</body>
+</html>
